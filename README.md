@@ -1,15 +1,8 @@
-<!--
- * @Author: lanjicen
- * @LastEditors: lanjicen
- * @Description: 说明文档
- * @Date: 2019-07-31 10:02:05
- * @LastEditTime: 2019-08-14 15:42:23
- -->
 # snowBall
 
 > 基础组件拖拽生成组合组件的工具，最终将生成的组件保存到指定目录。
 
-#### Build Setup
+## Build Setup
 
 ``` bash
 # 进入展示项目下载依赖
@@ -40,3 +33,20 @@ npm run build
 - [x] 清除背景 --完成
 - [x] 导出文件 --完成
 - [x] eletron打包 --完成
+
+### 展示效果
+![d1.gif](https://github.com/ljc70/snowBall/screenshot/d1.gif)
+### 画布、容器样式
+可以调整画布和容器的布局方式（flex或者block），可以设置背景色方便观察。
+![d8.gif](https://github.com/ljc70/snowBall/screenshot/d8.gif)
+<a id="%E6%96%87%E4%BB%B6%E9%87%8D%E7%BD%AE"></a>
+### 文件重置
+![d9.gif](https://github.com/ljc70/snowBall/screenshot/d9.gif)
+<a id="%E6%B8%85%E9%99%A4%E8%83%8C%E6%99%AF"></a>
+### 清除背景
+清除掉之前设置的背景色。
+![d10.gif](https://github.com/ljc70/snowBall/screenshot/d10.gif)
+<a id="%E5%AF%BC%E5%87%BA%E6%96%87%E4%BB%B6"></a>
+### 导出文件
+将文件导出到用户选择的文件夹。
+![d11.gif](https://github.com/ljc70/snowBall/screenshot/d11.gif)
