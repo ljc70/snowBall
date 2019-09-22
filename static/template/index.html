@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/http-vue-loader"></script>
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	font-family: arial;
+	-webkit-user-select: none;
+	touch-action: pan-y;
+}
+</style>
+<body>
+  <div id="my-app">
+    <my-component></my-component>
+  </div>
+
+  <script type="text/javascript">
+    new Vue({
+      el: '#my-app',
+      components: {
+        'my-component': httpVueLoader('Index.vue')
+      }
+    })
+  </script>
+</body>
+
+</html>

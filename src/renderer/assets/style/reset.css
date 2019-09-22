@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	font-family: arial;
+	-webkit-user-select: none;
+	touch-action: pan-y;
+}
+
+input {
+	-webkit-user-select: text;
+}
+
+html {
+	font-family: arail;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1;
+	overflow-x: hidden;
+	display: flex;
+	display: -webkit-flex;
+}
+
+body {
+	display: flex;
+	display: -webkit-flex;
+	flex: 1;
+	-webkit-flex: 1;
+	overflow-x: hidden;
+}
+
+#app {
+	display: flex;
+	display: -webkit-flex;
+	flex: 1;
+	-webkit-flex: 1;
+}
+
+.CodeMirror {
+	height: 667px!important;
+}
